@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Projects Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project 1: Users Data Dashboard 
+This React application fetches user data from an API and displays it in a responsive card-based layout. The app includes search and sorting functionalities to enhance user experience and an interactive modal view for detailed information.
 
-## Available Scripts
+### Live Demo
+- [Users Data Dashboard](https://verisyn-labs-oa-q1.vercel.app/)
 
-In the project directory, you can run:
+### Features:
+<ul>
+  <li>
+Retrieves a list of users from (https://jsonplaceholder.typicode.com/users).
+  </li>
+  <li>
+ Responsive design for desktop and mobile users
+  </li>
+  <li>
+ Allows users to filter by name or username.
+  </li>
+  <li>
+Sorts user list by name or username.
+  </li>
+  <li>
+On hovering over a user card, a "View Details" button appears.
+  </li>
+  <li>
+ Clicking "View Details" opens a modal with additional user information, including address, phone number, and website.
+  </li>
+</ul>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tech Stack and Dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Frontend library for building the UI.
+- **Material-UI**: Provides a set of accessible, customizable, and responsive UI components.
+- **Axios**: For making API requests.
+- **Framer Motion**: Adds animations to the user cards and modal transitions.
+- **dotenv**: Manages environment variables.
 
-### `npm test`
+### Installation
+To run this project locally, follow these steps:
+1. Clone the repository:  
+   `git clone https://github.com/gowthamv210/verisyn-labs-OA.git -b q1`  
+   `cd verisyn-labs-OA`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:  
+   `npm install`
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Start the development server:  
+   `npm start`
 
 ### Deployment
+The frontend is deployed on Vercel, providing continuous integration and automatic deployments on every push to the main branch.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
