@@ -1,0 +1,51 @@
+.container,
+.content {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 2px;
+}
+
+.flyoutLink {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  color: white;
+  text-decoration: none;
+}
+
+.flyoutEffect {
+  position: absolute;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  height: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: #a5b4fc;
+  transition: transform 0.3s ease-out;
+}
+
+.flyoutContent {
+  position: absolute;
+  left: 50%;
+  top: 3rem;
+  background-color: white;
+  color: black;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.menuContent {
+  width: max-content;
+  padding: 1.5rem;
+}
+
+.select {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+}
